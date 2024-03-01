@@ -27,4 +27,4 @@ jobs:
           npm publish
 
     env:
-      NODE_AUTH_TOKEN: ${{secrets.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}}
+      NODE_AUTH_TOKEN: ${{secrets.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}}
