@@ -33,4 +33,4 @@ jobs:
             ((retries--))
           done
         env:
-          NODE_AUTH_TOKEN: ${{secrets.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}}
+          NODE_AUTH_TOKEN: ${{secrets.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}}
