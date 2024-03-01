@@ -23,8 +23,8 @@ jobs:
 
       - name: Publish to NPM
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           npm publish
+        env:
+           NODE_AUTH_TOKEN: ${{secrets.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}}
 
-    env:
-      NPM_TOKEN: ${{secrets.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}}
